@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - cah is goint to print the alphabet
  *
- * Return: Always 0 (Success)
+ * description: prints the whole alphabet
  */
 void print_alphabet(void)
 {
