@@ -2,8 +2,7 @@
 
 /**
  *swap_int - swap the value of two int
- *@a
- *@b
+ *@*a swap value to *b
  */
 
 void swap_int(int *a, int *b)
