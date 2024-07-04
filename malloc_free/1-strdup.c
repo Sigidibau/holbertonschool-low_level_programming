@@ -11,27 +11,27 @@
 
 char *_strdup(char *str)
 {
-	char *a;
-	unsigned int b = 0;
-	unsigned int c = 0;
+	char *ar;
+	unsigned int i = 0;
+	unsigned int j = 0;
 
 	if (str == NULL)
 		return (NULL);
 
-	while (str[b])
+	while (str[i])
 		i++;
 
-	a = malloc(sizeof(char) * (b + 1));
+	ar = malloc(sizeof(char) * (i + 1));
 
-	if (a == NULL)
+	if (ar == NULL)
 		return (NULL);
 
-	while (str[c])
+	while (str[j])
 	{
-		a[c] = str[c];
-		c++;
+		ar[j] = str[j];
+		j++;
 	}
 
-	a[c + 1] = 0;
-	return (a);
+	ar[j + 1] = 0;
+	return (ar);
 }
