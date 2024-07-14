@@ -1,5 +1,5 @@
-#ifndef _Variadic_F
-#define _Variadic_F
+#ifndef _Variadic_F_
+#define _Variadic_F_
 #include <stdarg.h>
 #include <stdio.h>
 
@@ -8,6 +8,7 @@
  * @c: type
  * @f: the function to send it to
  */
+
 typedef struct check
 {
 	char *chk;
